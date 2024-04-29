@@ -1,0 +1,20 @@
+CRITICAL - 2024-04-28 21:55:44 --> Undefined constant "now"
+in APPPATH/Views/welcome_message.php on line 37.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('welcome_message', [], true)
+ 4 APPPATH/Controllers/Home.php(9): view('welcome_message')
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-28 21:56:03 --> Call to undefined function year()
+in APPPATH/Views/welcome_message.php on line 37.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render('welcome_message', [], true)
+ 4 APPPATH/Controllers/Home.php(9): view('welcome_message')
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
